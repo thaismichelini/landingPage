@@ -4,9 +4,9 @@
 }
 html{
     scroll-behavior: smooth;
+    background-image: url(../img/tijolo.jpg)
 }
 #barraMenu{
-    background-color: #df3801c0;
     font-size: 2rem ;
     color: white;
     text-align: center;
@@ -103,7 +103,6 @@ form input[type="submit"]:hover {
     } 
 
 .timer {
-    background-color:#df3801c0;
     color: white;
     user-select: none;
     display: flex;
@@ -129,6 +128,7 @@ form input[type="submit"]:hover {
 }
 
 .icons-social{
+    background-color: white;
     font-family: 'Poppins', sans-serif; 
     color: gray;
     font-size: 1.5rem;   
@@ -142,14 +142,9 @@ form input[type="submit"]:hover {
     height: 40px;
     border-radius: 20px;
     display: inline;
-    margin:0 10px;
+    margin: 0 10px;
     text-align: center;
     line-height: 40px;
     font-size: 2rem;
-
-}
-.icons-social i{
-    line-height: 50px;
-    align-items: center;
 
 }
