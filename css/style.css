@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#barraMenu{
+    background-color: #df3801c0;
+    font-size: 2rem ;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+#barraMenu h1{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .background-sectionOne{
+    background-image: url(../img/homeTelha.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .card-container{
+    background: linear-gradient(rgba(226, 218, 210, 0.5), rgba(238, 227, 222, 0.4));
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+    color:#119b15;
+    text-align: center;   
+
+    
+  }
+h1 {
+    font-size: 2rem; 
+    margin-bottom: 1,5rem;
+    font-family: 'Poppins', sans-serif;
+   
+}
+h2 {
+    font-size: 2rem; 
+    margin-bottom: 1,5rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+form{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;    
+    }
+form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+form label span {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    }
+    
+form input {
+    background:#e6e6e6; /* p; alterar cor caixa input*/
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: gray;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 1px solid rgb(191, 199, 194);
+    border-radius: 8px;
+    
+    }
+    
+form input [type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #119b15;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+    }
+    
+form input[type="submit"]:hover {
+    background: #0f971b;
+    } 
+
+.timer {
+    background-color:#df3801c0;
+    color: white;
+    user-select: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.countdown {
+    display:flex;
+    width: 500px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.countdown h2 {
+    font-size: 2.5rem;
+}
+
+.countdown p {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+.icons-social{
+    font-family: 'Poppins', sans-serif; 
+    color: gray;
+    font-size: 1.5rem;   
+    display: flex;
+    flex-direction: right;
+}
+.icons-social a{
+    text-decoration: none;
+    color: #0f971b;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline;
+    margin:0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2rem;
+
+}
+.icons-social i{
+    line-height: 50px;
+    align-items: center;
+
+}
